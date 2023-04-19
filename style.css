@@ -29,7 +29,7 @@ body{
 .center
 {
     text-align: center;
-    padding: 100px;
+    padding-bottom: 50px;
 }
 
 .separator
@@ -46,13 +46,14 @@ body{
     width: 200px;
     border-radius: 100%;
 }
+.profile-img
+{
+    min-width: 200px;
+    padding:50px 0;
+    text-align: center;
+}
 img{
     pointer-events: none;
-}
-
-.titile-header
-{
-    padding-top: 20px;
 }
 
 .fa-envelope{
@@ -83,7 +84,21 @@ footer{
 {
     margin: 3px;
 }
+.card-title
+{
+    padding-bottom: 10px;
+}
+.progress-bar
+{
+    background-color: #828282; 
+}
 
+
+@media screen {
+    .navbar{
+        text-align: center;
+    }
+}
 
 @media screen {
     .navbar{
